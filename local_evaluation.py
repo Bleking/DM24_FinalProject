@@ -39,6 +39,11 @@ def load_development_data(filename):
     return pd.read_json(filename, lines=True)
 
 
+# Additional function to load an additional data(newly added)
+def load_additional_data(filename):
+    return pd.read_json(filename, lines=True)
+
+
 # Function to generate model outputs based on the input data
 def generate_model_outputs(data_df, model):
     """
@@ -221,6 +226,20 @@ def main():
         )
 
     data_df = load_development_data(DATA_FILENAME)
+
+    # # newly added
+    # # Load additional data
+    # ADDITIONAL_DATA_FILENAME = ""
+    # if not os.path.exists(ADDITIONAL_DATA_FILENAME):
+    #     raise FileNotFoundError(
+    #         f"Additional data file not found at {ADDITIONAL_DATA_FILENAME}."
+    #     )
+    
+    # additional_data_df = load_additional_data(ADDITIONAL_DATA_FILENAME)
+
+    # # newly added
+    # # Combine with original data, you might need to concatenate, merge, or perform other operations depending on your data structure
+    # combined_data_df = pd.concat([data_df, additional_data_df])
 
     # Load the model from the user's custom configuration
     # Note: The evaluator **Always** imports the UserModel, please reference your own class

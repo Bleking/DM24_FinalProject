@@ -1,0 +1,664 @@
+기본 프롬프팅:
+(amazon-kdd-cup) work@main1[S010-jiwonha]:~/testdataset1/class-projects/amazon-kdd-cup-2024-starter-kit$ python local_evaluation.py 
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [00:08<00:00,  1.63s/it]
+Generating Responses:   0%|                                                                                                                                      | 0/96 [00:00<?, ?it/s]/home/work/anaconda3/lib/python3.11/site-packages/transformers/generation/utils.py:1256: UserWarning: You have modified the pretrained model configuration to control generation. This is a deprecated strategy to control generation and will be removed soon, in a future version. Please use and modify the model generation configuration (see https://huggingface.co/docs/transformers/generation_strategies#default-text-generation-configuration )
+  warnings.warn(
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   1%|█▎                                                                                                                            | 1/96 [00:17<27:10, 17.16s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   2%|██▋                                                                                                                           | 2/96 [00:33<26:01, 16.62s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   3%|███▉                                                                                                                          | 3/96 [00:49<25:29, 16.44s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   4%|█████▎                                                                                                                        | 4/96 [01:05<25:03, 16.34s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   5%|██████▌                                                                                                                       | 5/96 [01:06<16:04, 10.60s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   6%|███████▉                                                                                                                      | 6/96 [01:06<10:40,  7.11s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   7%|█████████▏                                                                                                                    | 7/96 [01:06<07:16,  4.90s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   8%|██████████▌                                                                                                                   | 8/96 [01:07<05:03,  3.45s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:   9%|███████████▊                                                                                                                  | 9/96 [01:24<11:01,  7.60s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  10%|█████████████                                                                                                                | 10/96 [01:40<14:55, 10.42s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  11%|██████████████▎                                                                                                              | 11/96 [01:57<17:29, 12.35s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  12%|███████████████▋                                                                                                             | 12/96 [02:14<19:10, 13.69s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  14%|████████████████▉                                                                                                            | 13/96 [02:23<16:55, 12.24s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  15%|██████████████████▏                                                                                                          | 14/96 [02:39<18:24, 13.47s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  16%|███████████████████▌                                                                                                         | 15/96 [02:55<19:19, 14.32s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  17%|████████████████████▊                                                                                                        | 16/96 [03:12<19:53, 14.92s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  18%|██████████████████████▏                                                                                                      | 17/96 [03:22<17:56, 13.62s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  19%|███████████████████████▍                                                                                                     | 18/96 [03:38<18:46, 14.44s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  20%|████████████████████████▋                                                                                                    | 19/96 [03:55<19:15, 15.00s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  21%|██████████████████████████                                                                                                   | 20/96 [04:11<19:29, 15.39s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  22%|███████████████████████████▎                                                                                                 | 21/96 [04:12<13:41, 10.95s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  23%|████████████████████████████▋                                                                                                | 22/96 [04:12<09:38,  7.81s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  24%|█████████████████████████████▉                                                                                               | 23/96 [04:13<06:50,  5.62s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  25%|███████████████████████████████▎                                                                                             | 24/96 [04:13<04:54,  4.08s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  26%|████████████████████████████████▌                                                                                            | 25/96 [04:14<03:33,  3.01s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  27%|█████████████████████████████████▊                                                                                           | 26/96 [04:14<02:37,  2.26s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  28%|███████████████████████████████████▏                                                                                         | 27/96 [04:15<01:59,  1.73s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  29%|████████████████████████████████████▍                                                                                        | 28/96 [04:15<01:32,  1.36s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  30%|█████████████████████████████████████▊                                                                                       | 29/96 [04:32<06:42,  6.00s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  31%|███████████████████████████████████████                                                                                      | 30/96 [04:49<10:09,  9.23s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  32%|████████████████████████████████████████▎                                                                                    | 31/96 [05:02<11:11, 10.33s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  33%|█████████████████████████████████████████▋                                                                                   | 32/96 [05:18<13:00, 12.19s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  34%|██████████████████████████████████████████▉                                                                                  | 33/96 [05:35<14:09, 13.49s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  35%|████████████████████████████████████████████▎                                                                                | 34/96 [05:51<14:52, 14.39s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  36%|█████████████████████████████████████████████▌                                                                               | 35/96 [06:07<15:07, 14.88s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  38%|██████████████████████████████████████████████▉                                                                              | 36/96 [06:24<15:26, 15.44s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  39%|████████████████████████████████████████████████▏                                                                            | 37/96 [06:41<15:30, 15.77s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  40%|█████████████████████████████████████████████████▍                                                                           | 38/96 [06:57<15:33, 16.10s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  41%|██████████████████████████████████████████████████▊                                                                          | 39/96 [07:14<15:25, 16.25s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  42%|████████████████████████████████████████████████████                                                                         | 40/96 [07:23<13:05, 14.02s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  43%|█████████████████████████████████████████████████████▍                                                                       | 41/96 [07:23<09:09,  9.99s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  44%|██████████████████████████████████████████████████████▋                                                                      | 42/96 [07:24<06:25,  7.14s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  45%|███████████████████████████████████████████████████████▉                                                                     | 43/96 [07:24<04:33,  5.15s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  46%|█████████████████████████████████████████████████████████▎                                                                   | 44/96 [07:25<03:17,  3.81s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  47%|██████████████████████████████████████████████████████████▌                                                                  | 45/96 [07:26<02:23,  2.81s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  48%|███████████████████████████████████████████████████████████▉                                                                 | 46/96 [07:26<01:46,  2.12s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  49%|█████████████████████████████████████████████████████████████▏                                                               | 47/96 [07:27<01:20,  1.63s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  50%|██████████████████████████████████████████████████████████████▌                                                              | 48/96 [07:27<01:02,  1.30s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  51%|███████████████████████████████████████████████████████████████▊                                                             | 49/96 [07:28<00:49,  1.06s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  52%|█████████████████████████████████████████████████████████████████                                                            | 50/96 [07:28<00:38,  1.19it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  53%|██████████████████████████████████████████████████████████████████▍                                                          | 51/96 [07:28<00:33,  1.35it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  54%|███████████████████████████████████████████████████████████████████▋                                                         | 52/96 [07:29<00:29,  1.50it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  55%|█████████████████████████████████████████████████████████████████████                                                        | 53/96 [07:29<00:24,  1.75it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  56%|██████████████████████████████████████████████████████████████████████▎                                                      | 54/96 [07:30<00:21,  1.99it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  57%|███████████████████████████████████████████████████████████████████████▌                                                     | 55/96 [07:30<00:18,  2.20it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  58%|████████████████████████████████████████████████████████████████████████▉                                                    | 56/96 [07:30<00:18,  2.14it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  59%|██████████████████████████████████████████████████████████████████████████▏                                                  | 57/96 [07:31<00:18,  2.10it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  60%|███████████████████████████████████████████████████████████████████████████▌                                                 | 58/96 [07:31<00:18,  2.07it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  61%|████████████████████████████████████████████████████████████████████████████▊                                                | 59/96 [07:32<00:16,  2.27it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  62%|██████████████████████████████████████████████████████████████████████████████▏                                              | 60/96 [07:32<00:14,  2.42it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  64%|███████████████████████████████████████████████████████████████████████████████▍                                             | 61/96 [07:33<00:15,  2.28it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  65%|████████████████████████████████████████████████████████████████████████████████▋                                            | 62/96 [07:33<00:15,  2.20it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  66%|██████████████████████████████████████████████████████████████████████████████████                                           | 63/96 [07:33<00:13,  2.37it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  67%|███████████████████████████████████████████████████████████████████████████████████▎                                         | 64/96 [07:34<00:12,  2.50it/s]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  68%|████████████████████████████████████████████████████████████████████████████████████▋                                        | 65/96 [07:51<02:47,  5.39s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  69%|█████████████████████████████████████████████████████████████████████████████████████▉                                       | 66/96 [07:54<02:23,  4.78s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  70%|███████████████████████████████████████████████████████████████████████████████████████▏                                     | 67/96 [08:11<04:05,  8.47s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  71%|████████████████████████████████████████████████████████████████████████████████████████▌                                    | 68/96 [08:28<05:07, 11.00s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  72%|█████████████████████████████████████████████████████████████████████████████████████████▊                                   | 69/96 [08:46<05:51, 13.01s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  73%|███████████████████████████████████████████████████████████████████████████████████████████▏                                 | 70/96 [09:04<06:14, 14.39s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  74%|████████████████████████████████████████████████████████████████████████████████████████████▍                                | 71/96 [09:08<04:44, 11.36s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  75%|█████████████████████████████████████████████████████████████████████████████████████████████▊                               | 72/96 [09:25<05:14, 13.12s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  76%|███████████████████████████████████████████████████████████████████████████████████████████████                              | 73/96 [09:43<05:31, 14.43s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  77%|████████████████████████████████████████████████████████████████████████████████████████████████▎                            | 74/96 [10:00<05:34, 15.22s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  78%|█████████████████████████████████████████████████████████████████████████████████████████████████▋                           | 75/96 [10:16<05:25, 15.52s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  79%|██████████████████████████████████████████████████████████████████████████████████████████████████▉                          | 76/96 [10:16<03:40, 11.04s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  80%|████████████████████████████████████████████████████████████████████████████████████████████████████▎                        | 77/96 [10:17<02:30,  7.93s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  81%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌                       | 78/96 [10:18<01:43,  5.75s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  82%|██████████████████████████████████████████████████████████████████████████████████████████████████████▊                      | 79/96 [10:18<01:10,  4.18s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  83%|████████████████████████████████████████████████████████████████████████████████████████████████████████▏                    | 80/96 [10:19<00:49,  3.12s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  84%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▍                   | 81/96 [10:19<00:35,  2.34s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  85%|██████████████████████████████████████████████████████████████████████████████████████████████████████████▊                  | 82/96 [10:20<00:25,  1.84s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  86%|████████████████████████████████████████████████████████████████████████████████████████████████████████████                 | 83/96 [10:21<00:19,  1.49s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  88%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▍               | 84/96 [10:22<00:18,  1.53s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  89%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▋              | 85/96 [10:24<00:15,  1.44s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  90%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▉             | 86/96 [10:26<00:16,  1.62s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  91%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎           | 87/96 [10:28<00:16,  1.82s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  92%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌          | 88/96 [10:44<00:49,  6.14s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  93%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉         | 89/96 [11:01<01:04,  9.22s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  94%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏       | 90/96 [11:17<01:08, 11.35s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  95%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍      | 91/96 [11:33<01:04, 12.81s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊     | 92/96 [11:49<00:55, 13.87s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  97%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████    | 93/96 [11:51<00:30, 10.16s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  98%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍  | 94/96 [11:52<00:15,  7.53s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses:  99%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋ | 95/96 [11:53<00:05,  5.59s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:100278 for open-end generation.
+Generating Responses: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 96/96 [11:54<00:00,  7.45s/it]
+                                         input_field  ...                                            outputs
+0  Instructions: Tell me what this product catego...  ...   The product category of Toggle Switch refers ...
+1  Instructions: Explain the product category nam...  ...   A Watch Band refers to a component that is us...
+2   Input: Explain the product type Handbag\nOutput:  ...   A handbag is a type of bag that is primarily ...
+3  Input: Explain the product type Water Purifica...  ...   A water purification unit is a home appliance...
+4  Which of the following product categories may ...  ...                                                  2
+
+[5 rows x 8 columns]
+Evaluating:   0%|                                                                                                                                                | 0/96 [00:00<?, ?it/s]/home/work/anaconda3/lib/python3.11/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Sample 1, generation: The product category of Toggle Switch refers to a type of mechanical switch that is operated by a toggle mechanism. Toggle switches are often used as power controllers, signal selectors, or indicator lights in various electronic devices, appliances, and machinery. They are designed to be manually actuated, typically by flipping a lever, button, or rocker, which causes a metal contact to connect or disconnect electrical circuits. These switches come in different sizes, materials, and configurations to suit specific needs, such as surface mounting, panel
+Sample 1, truth: A toggle switch is an electric switch operated by means of a projecting lever that is moved up and down.
+Per Sample Metric Score (sent-transformer): 0.8709039092063904
+
+Evaluating:   1%|█▍                                                                                                                                      | 1/96 [00:01<03:09,  2.00s/it]Sample 2, generation: A Watch Band refers to a component that is used to secure and customize the appearance of a wristwatch. It typically consists of a strap or bracelet that attaches to the watch case and is adjusted to fit the wearer's wrist. Watch bands come in a variety of materials, including leather, rubber, fabric, metal, and nylon. In addition, they are available in different styles and colors, making them a popular accessory for both functional and fashion-oriented purposes. Some popular types of watch bands include leather bands
+Sample 2, truth: A watch band is a bracelet that straps a wristwatch onto the wrist.
+Per Sample Metric Score (sent-transformer): 0.8804682493209839
+
+Sample 3, generation: A handbag is a type of bag that is primarily used for carrying personal items such as money, cell phones, makeup, and keys. It is designed to be carried by hand, either by holding the handles or looping the straps over your shoulder. Handbags come in various shapes, sizes, styles, and materials, catering to different preferences and occasions. Some of the most common types of handbags include:
+
+1. Tote bags - feature a large, open space with handles or straps for easy
+Sample 3, truth: Handbags are bags carried close to the body that are intended to hold multiple personal items for easy retrieval, and they are often fashionably designed. Handbags may be handheld, or may have a strap or handles.
+Per Sample Metric Score (sent-transformer): 0.8914019465446472
+
+Sample 4, generation: A water purification unit is a home appliances or a standalone system used to purify tap water, well water, or other sources of unclean water to make it safe and clean for consumption. These units employ a variety of water treatment processes to remove contaminants, such as chemicals, minerals, organic matter, and germs, that may be present in the water. 
+
+Step-by-step explanation:
+1. Identify the subject: The given task asks to explain the product type, which is "Water Purification
+Sample 4, truth: A water purification unit removes impurities by lowering contamination of water using a fine physical barrier, a chemical process, or a biological process.
+Per Sample Metric Score (sent-transformer): 0.8653788566589355
+
+Sample 5, generation: 2
+Sample 5, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 6, generation: 0
+Sample 6, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 7, generation: 2
+Sample 7, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 8, generation: 1
+Sample 8, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 9, generation: [5, 6, 6]
+Sample 9, truth: [6, 9, 15]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 10, generation: [1, 3, 13]
+Sample 10, truth: [14, 13, 8]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 11, generation: [8, 10, 10]
+Sample 11, truth: [8, 15, 12]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 12, generation: [3, 7, 7]
+Sample 12, truth: [8, 14, 13]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 13, generation: ['tablette', "asus\n\nTask completed. The phrases extracted that correspond to the 'product type' are 'tablettes' and 'asus'. These have been combined and outputted without repetition", 'as requested', "resulting in 'tablette", "asus'."]
+Sample 13, truth: ['tablette']
+Per Sample Metric Score (micro f1): tp 1, fp 4, fn 0
+
+Sample 14, generation: ['Cadbury\n\nTask explanation:\n1. The task asks you to assist online customers by extracting specific information from their queries.\n2. In this case', 'you need to identify the \'brand\' entity from the given query and provide the output without repeating the entity type.\n3. The query is: "chocolate buttons cadbury xms"\n4. The brand from this query is \'Cadbury\'', 'so your output should be: "Cadbury"\n5. Follow instructions to directly output the identified brand']
+Sample 14, truth: ['cadbury']
+Per Sample Metric Score (micro f1): tp 0, fp 3, fn 1
+
+Sample 15, generation: ['mens', 'short sleeved', "business shirts\n\nTask explanation:\nThe task requires identifying and extracting specific phrases from a given query that represent the 'audience'. In this case", 'the audience refers to the people the product is aimed at. The phrases to be extracted include terms that describe specific characteristics of the target audience. \n\nTo complete the task', 'carefully read the given query and identify the phrases that provide information about the audience. In this query', "'mens'", "'short sleeved'", "and 'business"]
+Sample 15, truth: ['mens']
+Per Sample Metric Score (micro f1): tp 1, fp 7, fn 0
+
+Sample 16, generation: ["3m 1080 vinyl wrap\n\nExplanation: The task requires us to identify and extract phrases from the given query that represent the 'composition' entity type. In this case", 'the query is "3m 1080 vinyl wrap". The phrase that corresponds to the \'composition\' is the complete query itself', '"3m 1080 vinyl wrap". There is only one such phrase given', 'so we simply output it', 'without repeating the entity type', 'separated by']
+Sample 16, truth: ['vinyl']
+Per Sample Metric Score (micro f1): tp 0, fp 6, fn 1
+
+Sample 17, generation: ['tablette', 'xiaomi \n\ntask completed', 'as instructed', "by extracting the 'product type' entities from the given query and presenting them without repeating the entity type. The extracted entities are 'tablette' and 'xiaomi'. They have been separated by a comma as requested. No explanations have been provided."]
+Sample 17, truth: ['tablette']
+Per Sample Metric Score (micro f1): tp 1, fp 3, fn 0
+
+Sample 18, generation: ['Chocolate Buttons', 'Nestle\n(No commas required between the last two items as they are a single brand name) \nThe remaining text (e.g.', "'chocolate buttons' are just characteristics or specifications of the products.) are not part of the entity type 'brand'. Therefore", "we only include the brand names 'Chocolate Buttons' and 'Nestle' in the final output. \nNote that there might have been a space between 'Nestle' and 'easter' in the"]
+Sample 18, truth: ['nestle']
+Per Sample Metric Score (micro f1): tp 0, fp 4, fn 1
+
+Sample 19, generation: ['women', 'long sleeved', 'casual', 'audience\n\nNote: In this context', "'audience' refers to the group of people for whom the product is intended or designed. Here", 'the audience is implied to be women who are looking for long-sleeved casual shirts. The other extracted phrases represent the characteristics of the product (long-sleeved', "casual) which are also part of the audience characterization. They are included to show the variety within the 'audience' group. The query does"]
+Sample 19, truth: ['women']
+Per Sample Metric Score (micro f1): tp 1, fp 6, fn 0
+
+Sample 20, generation: ["3m plastic repair tape\n\nTask explanation:\nThe task asks you to assist a customer on an online shopping platform by extracting phrases that correspond to the entity type 'composition'. In this case", 'the only phrase related to \'composition\' is "3m plastic repair tape". The task wants you to directly output these entities without repeating the entity type and separate them with a comma if there are multiple entities. You are not required to give explanations or any additional information. Simply find the relevant entities and output them']
+Sample 20, truth: ['plastic']
+Per Sample Metric Score (micro f1): tp 0, fp 2, fn 1
+
+Sample 21, generation: 1
+Sample 21, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 22, generation: 1
+Sample 22, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 23, generation: 3
+Sample 23, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 24, generation: 3
+Sample 24, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 25, generation: 1
+Sample 25, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 26, generation: 1
+Sample 26, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 27, generation: 3
+Sample 27, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 28, generation: 3
+Sample 28, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 29, generation: comfortable
+
+Explanation: The keyphrase extracted from the given review is "comfortable". This keyphrase mentions the given aspect of "comfort" from the review, which states that although the quality of the material is bad, the scrubs are still comfortable and seem well sown. This keyphrase corresponds directly to the aspect provided, without any additional words or context. 
+Thus, "comfortable" is the correct response for this task.  The other phrases mentioned in the review, such as
+Sample 29, truth: comfortable
+Per Sample Metric Score (rougel): 0.026666666666666665
+
+Sample 30, generation: Love that they're not snug on thighs. 
+
+Justification: The provided keyphrase directly mentions the aspect of comfort, as it talks about the shorts not being tight on the thighs, which is related to comfort. The other keyphrases in the review mention other aspects such as quality, length, sizing, and personal experience but do not directly focus on comfort as specified in the aspect. Therefore, the keyphrase "Love that they're not snug on thighs." is the most appropriate choice that relates
+Sample 30, truth: not snug on thighs
+Per Sample Metric Score (rougel): 0.09302325581395349
+
+Sample 31, generation: fits in cup holders
+Explanation: The given keyphrase directly mentions the ease of use aspect of the water cup product as it highlights how convenient the product is to use in vehicles by fitting into cup holders. This indicates that the user found the product easy to manage and utilize.  The keyphrase relates directly to the aspect provided and is concise, adhering to the given instructions.
+Sample 31, truth: super convenient
+Per Sample Metric Score (rougel): 0.029411764705882356
+
+Sample 32, generation: "they were comfy and cute for the price." 
+
+Reason: Although the given aspect is 'color', there is no direct mention of color in the review. The review covers the aspect given later which is 'comfort and appearance'. As per the instruction, we have to extract one keyphrase related to the given aspect from the review. The closest keyphrase related to the given aspect 'color' is 'cute for the price', which is a part of the given sentence about comfort and appearance of
+Sample 32, truth: cute for the price
+Per Sample Metric Score (rougel): 0.09302325581395349
+
+Sample 33, generation: Super comfortable. 
+
+The given task asks to extract only one keyphrase that mentions the given aspect, which in this case is 'comfort.' From the provided review, the sentence "Super comfortable." directly addresses the aspect, making it the appropriate keyphrase to be chosen. Other phrases in the review that relate to comfort are trimmed to adhere to the short keyphrase requirement. No other modifications or additional words are added. Thus, the answer is 'Super comfortable.'.
+  
+Note: Other keyphrases
+Sample 33, truth: super comfortable
+Per Sample Metric Score (rougel): 0.05063291139240507
+
+Sample 34, generation: soft and comfortable
+This keyphrase is extracted from the review text and directly mentions the aspect of 'comfort'. It fits the requirement of being a short, single keyphrase directly taken from the given review. No explanation or additional texts are included. 
+Another example: 'They are a great color, sort of stone. Not white and not beige. Very versatile.' can be ignored as it does not relate to the 'comfort' aspect. 
+
+The keyphrase extracted must be relevant to the given aspect
+Sample 34, truth: comfortable but slightly snug
+Per Sample Metric Score (rougel): 0.023809523809523808
+
+Sample 35, generation: works just fine
+
+The task asked to extract a keyphrase related to the given aspect, which in this case was "ease of use". From the given review, the keyphrase that best represents the ease of use aspect is "works just fine", which indicates that the user didn't experience difficulties while using the product. The response adheres to the guidelines by providing a short keyphrase without elaboration or unrelated text. Moreover, it directly relates to the aspect requested.
+Sample 35, truth: works just fine
+Per Sample Metric Score (rougel): 0.07407407407407407
+
+Sample 36, generation: The colors are really bright. 
+
+Note: Follow the instructions strictly and provide only the exact keyphrase asked for. Avoid adding unnecessary information. Do not correct or change any text in the review. If there is no keyphrase that perfectly fits the given aspect, mention that the aspect was not found in the review. In this case, the aspect "color" is clearly present and the output is one of the keyphrases that mentions it. 
+The answer should always be a short keyphrase directly
+Sample 36, truth: colors are really bright
+Per Sample Metric Score (rougel): 0.09302325581395349
+
+Sample 37, generation: [6, 8, 1]
+Sample 37, truth: [6, 8, 10]
+Per Sample Metric Score (hit rate@3): 0.6666666666666666
+
+Sample 38, generation: [3, 6, 6]
+Sample 38, truth: [8, 2, 10]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 39, generation: [3, 4, 2]
+Sample 39, truth: [4, 3, 7]
+Per Sample Metric Score (hit rate@3): 0.6666666666666666
+
+Sample 40, generation: [2, 3, 6]
+Sample 40, truth: [7, 3, 2]
+Per Sample Metric Score (hit rate@3): 0.6666666666666666
+
+Sample 41, generation: 3
+Sample 41, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 42, generation: 3
+Sample 42, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 43, generation: 1
+Sample 43, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 44, generation: 2
+Sample 44, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 45, generation: 2
+Sample 45, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 46, generation: 2
+Sample 46, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 47, generation: 3
+Sample 47, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 48, generation: 3
+Sample 48, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 49, generation: 0
+Sample 49, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 50, generation: 2
+Sample 50, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 51, generation: 0
+Sample 51, truth: 0
+Per Sample Metric Score (accuracy): True
+
+Sample 52, generation: 3
+Sample 52, truth: 3
+Per Sample Metric Score (accuracy): True
+
+2024-05-21 15:59:46.659 | WARNING  | parsers:_parse_multichoice:90 - SHOPBENCH_PARSER_WARNING::: Error parsing multichoice response: invalid literal for int() with base 10: 'T'. Responding with default : -1
+Sample 53, generation: -1
+Sample 53, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 54, generation: 2
+Sample 54, truth: 2
+Per Sample Metric Score (accuracy): True
+
+Sample 55, generation: 2
+Sample 55, truth: 2
+Per Sample Metric Score (accuracy): True
+
+Sample 56, generation: 1
+Sample 56, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 57, generation: 0
+Sample 57, truth: 0
+Per Sample Metric Score (accuracy): True
+
+Sample 58, generation: 3
+Sample 58, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 59, generation: 3
+Sample 59, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 60, generation: 3
+Sample 60, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 61, generation: 0
+Sample 61, truth: 0
+Per Sample Metric Score (accuracy): True
+
+Sample 62, generation: 3
+Sample 62, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 63, generation: 3
+Sample 63, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 64, generation: 1
+Sample 64, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 65, generation: [1, 4, 5, 2, 3]
+Sample 65, truth: [1, 0.01, 0.1, 1, 0]
+Per Sample Metric Score (ndcg): 0.9951365989550944
+
+Sample 66, generation: [3, 4, 1, 2, 5]
+Sample 66, truth: [0.01, 0.1, 1, 0, 0]
+Per Sample Metric Score (ndcg): 0.9862953957814871
+
+Sample 67, generation: []
+Sample 67, truth: [0.01, 0.1, 0, 1, 0]
+Per Sample Metric Score (ndcg): 0.0
+
+Sample 68, generation: []
+Sample 68, truth: [0, 0.1, 0.01, 0.1, 1]
+Per Sample Metric Score (ndcg): 0.0
+
+Sample 69, generation: [5, 6, 10]
+Sample 69, truth: [4]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 70, generation: [10, 6, 6]
+Sample 70, truth: [1]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 71, generation: [1, 4, 6]
+Sample 71, truth: [4]
+Per Sample Metric Score (hit rate@3): 1.0
+
+Sample 72, generation: [3, 4, 1]
+Sample 72, truth: [3, 8, 9]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 73, generation: [2, 8, 12]
+Sample 73, truth: [1, 4, 8]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 74, generation: [11, 3]
+Sample 74, truth: [3, 11, 13]
+Per Sample Metric Score (hit rate@3): 0.6666666666666666
+
+Sample 75, generation: [4, 5, 4]
+Sample 75, truth: [8, 11, 15]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 76, generation: 1
+Sample 76, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 77, generation: 4
+Sample 77, truth: 4
+Per Sample Metric Score (accuracy): True
+
+Sample 78, generation: 2
+Sample 78, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 79, generation: 5
+Sample 79, truth: 5
+Per Sample Metric Score (accuracy): True
+
+Sample 80, generation: 1
+Sample 80, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 81, generation: 4
+Sample 81, truth: 4
+Per Sample Metric Score (accuracy): True
+
+Sample 82, generation: 3
+Sample 82, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 83, generation: 5
+Sample 83, truth: 5
+Per Sample Metric Score (accuracy): True
+
+Sample 84, generation: 0
+Sample 84, truth: 0
+Per Sample Metric Score (accuracy): True
+
+Sample 85, generation: 1
+Sample 85, truth: 2
+Per Sample Metric Score (accuracy): False
+
+Sample 86, generation: 3
+Sample 86, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 87, generation: 2
+Sample 87, truth: 2
+Per Sample Metric Score (accuracy): True
+
+Sample 88, generation: "Steadtler Fimo Soft Starter Pack - 12 x 57 g Multicolor Clay Blocks" (in German: "Steadtler Fimo Soft Starter Pack - 12 x 57 g Mehrfarbige Modelliermassen")
+
+To come up with the translated title, I first identified the essential components of the original title: the product name, numbers relating to the pack size (12 x 57 g), and the descriptor for colors
+Sample 88, truth: Fimo Soft Starter Pack 12 x 56g Multicolour Blocks by Steadtler
+Per Sample Metric Score (bleu): 0.08708008839615716
+
+Evaluating:  92%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊           | 88/96 [00:03<00:00, 32.88it/s]Sample 89, generation: 5 Modos, Cepillo de Dientes Eléctrico Sónico con 8 Cabezales de Cepillado, 40000 VPM, 4 Horas de Carga Rápida para 30 Días de Uso, Cepillo de Dientes Eléctrico Recargable para Adultos, Negro
+
+Step-by-step justification:
+
+1. Translate key terms from English to Spanish, respecting grammar rules and maintaining the coherence of
+Sample 89, truth: Cepillo de dientes eléctrico, cepillo de dientes eléctrico Sonic con 8 cabezales de cepillo 40000 VPM 5 modos, cepillo de dientes eléctrico recargable para adultos, negro
+Per Sample Metric Score (bleu): 0.4770309315400338
+
+Sample 90, generation: 2. Casque de jeu surround Corsair HS60 PRO (son surround 7.1, écouteurs à mousse à mémoire réglables, microphone antibruit amovible avec compatibilité PC, PS4, Xbox One, Switch et mobiles) - Jaune
+
+To come up with the translated title, I used the provided English title and translated each important aspect of it into French. Here's a breakdown of the translation:
+
+1. 'Corsair HS60
+Sample 90, truth: Corsair HS60 PRO Surround Casque de Gaming Son surround 7.1, Mémoire ajustables Oreillettes, Unidirectionnel Antibruit Microphone avec PC, PS4, Xbox One, Switch et mobiles Compatibilité - Jaune
+Per Sample Metric Score (bleu): 0.37592574097069353
+
+Sample 91, generation: 'Actesso Supporto per il polso traspirante - Ideale per tunnel carpale, stiramenti e tendiniti (Nero, Large sinistro)'
+
+In this translation task, we need to translate each element of the original title into Italian while maintaining the overall structure and meaning. Here's a breakdown of the translated elements:
+
+- 'Actesso Breathable Wrist Support Brace Splint': translated as 'Actesso Supporto per il polso traspirante' - this retains
+Sample 91, truth: Actesso Tutore Polso Traspirante - Ideale Polsiera per Sindrome del Tunnel Carpale, Slogature, RSI e Tendinite (Nero Sinistra, L)
+Per Sample Metric Score (bleu): 0.1744681896860117
+
+Sample 92, generation: 「ジェテックケース アルミパワー iPad9.7インチ (2018/2017 MODEL) 6世代/5世代 -- シルバーライトパープル ショートカバー 自動ウェイク/スリーブ」
+
+Step-by-step explanation:
+1. Translate the original English product title into Japanese.
+2. Include essential product specifications and key
+Sample 92, truth: JEDirect iPad 9.7インチ (2018/2017 第6/5世代用) ケース PUレザー 三つ折スタンド オートスリープ機能 (ライトパープル)
+Per Sample Metric Score (jp-bleu): 0.3295103291209691
+
+Sample 93, generation: 3
+Sample 93, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 94, generation: 1
+Sample 94, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 95, generation: 0
+Sample 95, truth: 2
+Per Sample Metric Score (accuracy): False
+
+Sample 96, generation: 2
+Sample 96, truth: 2
+Per Sample Metric Score (accuracy): True
+
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 96/96 [00:03<00:00, 29.21it/s]
+====================================================================================================
+Task specific metrics: 
+   task_name                 task_type            metric  num_samples  overall_score
+0      task1                generation  sent-transformer            4       0.877038
+1      task2           multiple-choice          accuracy            4       0.000000
+2      task3                 retrieval        hit rate@3            4       0.250000
+3      task4  named_entity_recognition          micro f1            8       0.170213
+4      task5           multiple-choice          accuracy            8       0.750000
+5      task6                generation            rougel            8       0.060458
+6      task7                 retrieval        hit rate@3            4       0.500000
+7      task8           multiple-choice          accuracy            8       0.250000
+8      task9           multiple-choice          accuracy            4       0.500000
+9     task10           multiple-choice          accuracy            4       0.750000
+10    task11           multiple-choice          accuracy            8       0.750000
+11    task12                   ranking              ndcg            4       0.495358
+12    task13                 retrieval        hit rate@3            3       0.333333
+13    task14                 retrieval        hit rate@3            4       0.333333
+14    task15           multiple-choice          accuracy            8       0.875000
+15    task16           multiple-choice          accuracy            4       0.750000
+16    task17                generation              bleu            5       0.288803
+17    task18           multiple-choice          accuracy            4       0.500000
+
+Overall Score: 0.46852982312194846
+
+
+변형 프롬프팅

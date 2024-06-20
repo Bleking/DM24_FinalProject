@@ -1,0 +1,18 @@
+- Tried:
+Vicuna-13b
+gemma-7b
+StableLM-2-12b-chat
+Falcon-7B (성능 30% 미만)
+Falcon-40B (slow)
+WizardLM-13b (slow)
+llama-3 (authorisation required)
+Qwen1.5-7B-sft-0502 (56%로 지금까지는 최고)
+Qwen-14B-Llamafied
+Qwen1.5-MoE-A2.7B-Chat (slow)
+
+
+- Not yet:
+Mistral-7B (slow)
+Qwen1.5-MoE-A2.7B-Chat-GPTQ-Int4
+CodeQwen1.5-7B
+Hermes-Yi-34B (Nous-Hermes-2-Yi-34B)

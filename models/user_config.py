@@ -5,17 +5,16 @@ from models.dummy_model import DummyModel
 # This line establishes an alias for the DummyModel class to be used within this script.
 # Instead of directly using DummyModel everywhere in the code, we're assigning it to 'UserModel'.
 # This approach allows for easier reference to your model class when evaluating your models,
-UserModel = DummyModel
+# UserModel = DummyModel
 
 
 # When implementing your own model please follow this pattern:
 #
-# from models.your_model import YourModel
+from models.model_dareties import DareTies
 #
 # Replace 'your_model' with the name of your Python file containing the model class
 # and 'YourModel' with the class name of your model.
 #
 # Finally, assign YourModel to UserModel as shown below to use it throughout your script.
 #
-# UserModel = YourModel
-
+UserModel = DareTies
